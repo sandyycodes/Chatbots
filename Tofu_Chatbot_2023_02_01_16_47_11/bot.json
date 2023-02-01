@@ -1,0 +1,40 @@
+{
+  "brain": [
+    {
+      "triggers": [ 
+          "tell me about tofu",
+	      "tofu",
+          "info on tofu",
+          "who is tofu"
+
+      ],
+      
+      "responses": [
+           "Tofu is a my shiba inu, who is approximately 18 months old",
+            "Tofu is a sassy cream shiba inu.",
+            "Tofu is my crazy but cute dog."
+
+
+      ]
+    },
+    
+    {
+      "triggers": [
+        "favorite",
+	    "food",
+        "snack"
+
+      ],
+      "responses": [
+        "Tofu’s favorite snacks include bully sticks, peanut butter, and cheese!",
+"Tofu’s favorite food is probably beef",
+"Tofu loves eating ice cubes for some strange reason"
+
+      ]
+    }
+    
+  ],
+  
+  "catchall":["I'm not sure", "idk", "haha. why don't you ask me something about tofu?"]
+  
+}
