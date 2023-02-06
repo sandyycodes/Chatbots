@@ -49,7 +49,7 @@ function draw() {
 
   //display the answer from the chatbot
   fill("black");
-  text(answer, width/2, height/2.2, width/2);
+  text(answer, width/2, height/2.35, width/2);
 }
 
 function answerMe() {
