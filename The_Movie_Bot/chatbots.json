@@ -1,0 +1,82 @@
+{
+   "brain":[
+     
+           {
+         "triggers":[
+              	"hi",
+	            "hello",
+	            "hey",
+	            "yo",
+	            "what’s up"
+
+
+         ],
+         "responses":[
+            	"hii",
+	            "hey :)"
+
+         ]
+      },
+     
+      {
+         "triggers":[
+              "fav movie",
+	          "fav show",
+	          "favorite movie",
+	          "favorite show",
+	          "recommendations",
+	          "recs",
+	          "show recs",
+	          "must watch"
+
+         ],
+         "responses":[
+            "the menu was not bad at all if u r into cooking and dark comedy",
+	        "i rlly liked everything everywhere all at once!",
+	        "Hmm if u r into zombie gore then all of us are dead on netflix is good!",
+	        "Queen’s gambit was def one of my quarantine favs",
+	        "U might’ve watched this already but squid game was actually not bad",
+	        "Stranger things for the win!"
+
+         ]
+      },
+      {
+         "triggers":[
+            "favorite character",
+	        "fav character",
+	        "all time fav character",
+	        "character"
+
+         ],
+         "responses":[
+            "hmm probably beth harmon from queen’s gambit",
+            "beth from queen’s gambit!!",
+            "hands down beth harmon from queen's gambit"
+
+         ]
+      },
+      {
+         "triggers":[
+            "fav genre",
+	        "favorite genre",
+	        "best genre",
+	        "genre"
+
+         ],
+         "responses":[
+            "depends on my mood…most of the time i like a good drama and thriller but comedy is also fun",
+            "I’m a big comedy and drama fan",
+            "drama for sure"
+
+         ]
+      }
+   ],
+   "catchall":[
+      "hmm…idk",
+      "uhh i’m not sure about that actually",
+      "lol",
+      "lmao",
+      "mhm"
+
+   ]
+}
