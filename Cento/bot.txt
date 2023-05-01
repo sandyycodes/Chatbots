@@ -1,0 +1,43 @@
+! version = 2.0
+
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
+// OPENING
++ hello
+- Hi, I'm Cento, a counterfeit poet. What's your name?
+
+// NAME
++ [my name is|i am] *
+% hi i am cento a counterfeit poet what is your name
+- <set username=<formal>>Nice to meet you, <get username>. Would you like to create a poem with me?
+
+//YES GENERATE
++ [*] yes|yeah|yep|sure|okay|yah|ya|i love [*]
+% nice to meet you <get username> would you like to create a poem with me
+- Yay! Click the GENERATE button to begin! You can also try the COLORS and POSITION button afterwards.
+
+// DON'T GENERATE
++ [*] no|nah|nope|not really|naw|uh|eh|not [*]
+% nice to meet you <get username> would you like to create a poem with me
+- umm okay...if you change your mind, click the GENERATE button to make a poem with me. You can also try the COLORS and POSITION button afterwards.
+
+
+//Catchall
++ *
+- Sorry, I didn't get that. Try saying 'hello' to re-calibrate me
